@@ -19,6 +19,13 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (IBAction)cancelToDo:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
+
+
 -(void)viewDidLoad
 { [super viewDidLoad];
     self.myToDoTitle.delegate = self;

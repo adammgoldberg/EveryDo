@@ -162,26 +162,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="To Do Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vMF-DY-Du7">
-                                <rect key="frame" x="117" y="88" width="97" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="To Do Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vMF-DY-Du7">
+                                <rect key="frame" x="136" y="135" width="91" height="30"/>
                                 <color key="backgroundColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="To Do Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="keP-Er-p1W">
-                                <rect key="frame" x="117" y="142" width="97" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="To Do Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="keP-Er-p1W">
+                                <rect key="frame" x="136" y="192" width="137" height="30"/>
                                 <color key="backgroundColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Priority Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mgb-k8-JOX">
-                                <rect key="frame" x="117" y="201" width="97" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Priority Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mgb-k8-JOX">
+                                <rect key="frame" x="136" y="257" width="124" height="30"/>
                                 <color key="backgroundColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZL-hY-htZ">
-                                <rect key="frame" x="20" y="20" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwJ-BJ-pdz">
+                                <rect key="frame" x="41" y="28" width="48" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.109128323" blue="0.12578850659999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancelToDo:" destination="H0i-52-Pvy" eventType="touchUpInside" id="ZQr-kE-3IF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZL-hY-htZ">
+                                <rect key="frame" x="178" y="324" width="41" height="30"/>
                                 <color key="backgroundColor" red="0.79596739049999998" green="0.50634875960000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Finish">
                                     <color key="titleColor" red="0.39354557099999998" green="1" blue="0.31654704690000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -192,6 +200,18 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.97450852214150152" blue="0.085812831373580756" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="keP-Er-p1W" firstAttribute="leading" secondItem="vMF-DY-Du7" secondAttribute="leading" id="1zT-4U-3dn"/>
+                            <constraint firstItem="mgb-k8-JOX" firstAttribute="top" secondItem="keP-Er-p1W" secondAttribute="bottom" constant="35" id="4Uz-tG-fhV"/>
+                            <constraint firstItem="EZL-hY-htZ" firstAttribute="centerX" secondItem="mgb-k8-JOX" secondAttribute="centerX" id="6p5-mJ-kWB"/>
+                            <constraint firstItem="keP-Er-p1W" firstAttribute="top" secondItem="vMF-DY-Du7" secondAttribute="bottom" constant="27" id="ImH-Rg-Taj"/>
+                            <constraint firstItem="hwJ-BJ-pdz" firstAttribute="top" secondItem="1he-Wd-Jtq" secondAttribute="bottom" constant="8" id="Rd8-9P-5qz"/>
+                            <constraint firstItem="hwJ-BJ-pdz" firstAttribute="leading" secondItem="CN4-L7-jaU" secondAttribute="leading" constant="41" id="Ze5-GW-QAD"/>
+                            <constraint firstItem="mgb-k8-JOX" firstAttribute="leading" secondItem="keP-Er-p1W" secondAttribute="leading" id="cOK-MF-tHI"/>
+                            <constraint firstItem="vMF-DY-Du7" firstAttribute="top" secondItem="1he-Wd-Jtq" secondAttribute="bottom" constant="115" id="lvz-ZA-CUG"/>
+                            <constraint firstItem="EZL-hY-htZ" firstAttribute="top" secondItem="mgb-k8-JOX" secondAttribute="bottom" constant="37" id="rNP-QT-7hD"/>
+                            <constraint firstItem="vMF-DY-Du7" firstAttribute="leading" secondItem="CN4-L7-jaU" secondAttribute="leading" constant="136" id="wjj-FN-9WD"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="myToDoDescrip" destination="keP-Er-p1W" id="SBy-u7-JdR"/>

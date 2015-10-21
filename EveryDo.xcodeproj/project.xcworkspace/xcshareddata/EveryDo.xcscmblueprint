@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "232FEB66FD213DADC461FB29DC2D7BD82CD7074D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "232FEB66FD213DADC461FB29DC2D7BD82CD7074D" : 0,
+    "5AF1E91BDFEE2495E45B8B6FBF2D5170F6AE191A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "17CB8810-5AD7-4BF7-A728-30D919D0617A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "232FEB66FD213DADC461FB29DC2D7BD82CD7074D" : "EveryDo\/",
+    "5AF1E91BDFEE2495E45B8B6FBF2D5170F6AE191A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EveryDo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EveryDo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adammgoldberg\/EveryDo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "232FEB66FD213DADC461FB29DC2D7BD82CD7074D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adammgoldberg\/Pizza.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5AF1E91BDFEE2495E45B8B6FBF2D5170F6AE191A"
+    }
+  ]
+}
